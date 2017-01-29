@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+  
+	<title>Rootland School</title>
+  
+	<meta charset="utf-8">
+  
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+   
+	<link rel="stylesheet" href="css/estilos.css">
+  
+
+</head>
+
+
+<body>
+
+
+
+	<nav class="navbar navbar-inverse">
+  
+		<div class="container-fluid">
+    
+		<div class="navbar-header">
+      
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        
+				<span class="icon-bar"></span>
+        
+				<span class="icon-bar"></span>
+       
+				<span class="icon-bar"></span>                        
+      
+			</button>
+      
+			<a class="navbar-brand" href="#">
+				<img src="img/logo.png" alt="Rootland" height="35" width="140">
+			</a>
+    
+		</div>
+    
+		<div class="collapse navbar-collapse" id="myNavbar">
+      
+			<ul class="nav navbar-nav">
+        
+				<li><a href="index.html">Inicio</a></li>
+        
+				<li class="active"><a href="actividades.html">Actividades</a></li>
+        
+				<li><a href="expedientes.html">Expedientes</a></li>
+        
+				<li><a href="avisos.html">Avisos</a></li>
+        
+				<li><a href="contacto.html">Contacto</a></li>
+      
+			</ul>
+
+		</div>
+  </div>
+	
+</nav>
+  
+
+	
+<div class="container">
+  
+
+
+	
+		<h1>Actividades</h1>
+	<center>	
+	<p>Rootland School esta comprometida con la comunicacion con los padres de familia y alumnos. El siguiente enlace permite visualizar el calendario de 
+	actividades que se realizaran en el ciclo escolar.</p>
+	<p class="participar"><b>Te invitamos a participar</b></p>
+		
+		<a href="#" onclick="document.getElementById('contenedor').style.visibility='visible';" class="button"><b>Calendario</b></a>
+		
+		<div id="contenedor" class="archivos">
+		
+			<button onclick="document.getElementById('contenedor').style.visibility='hidden';" class="cerrar">Cerrar</button>
+			
+			<object data="archivos/calendario.pdf" type="application/pdf" width="100%" height="100%"></object> 
+			
+		</div>
+	</center>
+
+	</div>
+
+
+
+	<script src="js/jquery.min.js"></script>
+  
+	<script src="js/bootstrap.min.js"></script>
+
+
+</body>
+
+
+</html>
